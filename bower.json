@@ -1,0 +1,22 @@
+{
+  "name": "pdf.js-viewer",
+  "version": "1.0",
+  "homepage": "https://github.com/minhbang/pdf.js-viewer",
+  "authors": [
+    "Minh Bằng <contact@minhbang.com>"
+  ],
+  "description": "PDF.js Viewer",
+  "main": "readme.md",
+  "keywords": [
+    "minhbang",
+    "PDF",
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
