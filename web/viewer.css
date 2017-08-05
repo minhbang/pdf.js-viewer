@@ -1091,6 +1091,16 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/toolbarButton-print.png);
 }
 
+.toolbarButton.fullScreen::before,
+.secondaryToolbarButton.fullScreen::before {
+  content: url(images/toolbarButton-fullScreen.png);
+}
+
+.toolbarButton.fullScreen.exit::before,
+.secondaryToolbarButton.fullScreen.exit::before {
+  content: url(images/toolbarButton-fullScreen_exit.png);
+}
+
 .toolbarButton.openFile::before,
 .secondaryToolbarButton.openFile::before {
   content: url(images/toolbarButton-openFile.png);
@@ -1865,6 +1875,16 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   .secondaryToolbarButton.print::before {
     content: url(images/toolbarButton-print@2x.png);
   }
+
+  .toolbarButton.fullScreen::before,
+.secondaryToolbarButton.fullScreen::before {
+  content: url(images/toolbarButton-fullScreen@2x.png);
+}
+
+.toolbarButton.fullScreen.exit::before,
+.secondaryToolbarButton.fullScreen.exit::before {
+  content: url(images/toolbarButton-fullScreen_exit@2x.png);
+}
 
   .toolbarButton.openFile::before,
   .secondaryToolbarButton.openFile::before {
